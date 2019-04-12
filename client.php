@@ -17,4 +17,4 @@ $arguments = array(
     'name' => $name
 );
 
-echo $client->do('python-hi', json_encode($arguments)).PHP_EOL;
+echo $client->doNormal('python-hi', json_encode($arguments)).PHP_EOL;
